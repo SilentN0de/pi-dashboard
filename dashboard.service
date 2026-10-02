@@ -1,0 +1,12 @@
+[Unit]
+Description=Network Dashboard
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/admin/dashboard/app.py
+WorkingDirectory=/home/admin/dashboard
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
