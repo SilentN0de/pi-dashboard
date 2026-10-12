@@ -56,7 +56,7 @@ def get_system():
     }
 
 
-SERVICES = ["pihole-FTL", "secplatform", "tailscaled", "docker", "mcbot", "dashboard"]
+SERVICES = ["pihole-FTL", "deadbolt", "tailscaled", "docker", "mcbot", "dashboard"]
 
 
 def get_nas():
